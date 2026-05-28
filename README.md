@@ -48,7 +48,7 @@ Detailed architectural and technical decisions are documented in `DECISIONS.md`.
 
 ## Live Demo Link
 
-nua-assignment-vert.vercel.app
+[nua-assignment-vert.vercel.app](https://nua-assignment-vert.vercel.app)
 
 ## Future Improvements
 
