@@ -46,9 +46,7 @@ npm run build
 
 Detailed architectural and technical decisions are documented in `DECISIONS.md`.
 
-## Live Demo
 
-(Add your Vercel deployment link here)
 
 ## Future Improvements
 

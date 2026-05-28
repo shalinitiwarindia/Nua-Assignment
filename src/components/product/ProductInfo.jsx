@@ -146,9 +146,10 @@ function ProductInfo({
             <button
               key={size}
               disabled={stock === 0}
-              onClick={() =>
-                setSelectedSize(size)
-              }
+            onClick={() => {
+  setSelectedSize(size)
+  setQuantity(1)
+}}
               className={`${styles.sizeButton} ${
                 selectedSize === size
                   ? styles.active

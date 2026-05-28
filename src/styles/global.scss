@@ -6,15 +6,45 @@
 
 body {
   font-family: Arial, sans-serif;
-  color: #111;
   background: #fff;
+  color: #111;
 }
 
-button {
+button,
+input {
   font-family: inherit;
 }
 
 img {
-  display: block;
   max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 40px;
+}
+
+.productLayout {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  gap: 60px;
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .productLayout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    padding: 16px;
+  }
 }
