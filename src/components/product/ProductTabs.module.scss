@@ -1,0 +1,63 @@
+.tabsWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tabButtons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.tabButtons button {
+  padding: 14px 22px;
+  border: none;
+  background: #f3f3f3;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.tabButtons button:hover {
+  background: #ddd;
+}
+
+.active {
+  background: black !important;
+  color: white;
+}
+
+.content {
+  background: #fafafa;
+  padding: 28px;
+  border-radius: 14px;
+  line-height: 1.8;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td {
+  border-bottom: 1px solid #ddd;
+  padding: 16px 0;
+}
+
+.reviews {
+  display: grid;
+  gap: 20px;
+}
+
+.reviewCard {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+}
+
+.reviewCard h4 {
+  margin-bottom: 10px;
+}

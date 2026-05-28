@@ -1,0 +1,54 @@
+.page {
+  padding: 40px 24px;
+  background: #faf8f6;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 55% 45%;
+
+  gap: 60px;
+
+  align-items: flex-start;
+}
+
+.gallerySection {
+  position: sticky;
+  top: 120px;
+
+  align-self: flex-start;
+}
+
+.infoSection {
+  width: 100%;
+}
+
+.loading,
+.error {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .page {
+    padding: 20px 16px;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .gallerySection {
+    position: static;
+  }
+}

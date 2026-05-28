@@ -1,0 +1,103 @@
+.topBar {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header {
+  background: #e85b52;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 22px 34px;
+}
+
+.logo {
+  color: white;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav {
+  display: flex;
+  gap: 34px;
+  align-items: center;
+}
+
+.nav a {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  opacity: 0.75;
+}
+
+.rightSection {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+}
+
+.cart {
+  position: relative;
+  cursor: pointer;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -12px;
+
+  width: 20px;
+  height: 20px;
+
+  background: white;
+  color: #e85b52;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 12px;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .nav {
+    display: none;
+  }
+
+  .container {
+    padding: 18px 16px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+
+  .rightSection {
+    gap: 16px;
+    font-size: 20px;
+  }
+}
