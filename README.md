@@ -46,7 +46,7 @@ npm run build
 
 Detailed architectural and technical decisions are documented in `DECISIONS.md`.
 
-##Live Demo Link
+## Live Demo Link
 
 nua-assignment-vert.vercel.app
 
